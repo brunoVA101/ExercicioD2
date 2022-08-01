@@ -1,5 +1,8 @@
 1- A 2a versão foi para o commit
 
+2-Como o arquivo ficou salvo na area de staging, nao houves problemas em deletar o arquivo da WT. Ao fazer o commit,
+este arquivo ficou salvo no repositorio
+
 4- No campo "changes" houve a exclusão de ANSWERS e a criacao de RESPOSTAS
 
 5-
@@ -29,5 +32,6 @@ de branch e fazer checkout, o arquivo de texto criado saiu da WT e continuou sal
 11- Embora a branch tenha sido deletada, o arquivo de texto ficou salvo no repositorio no ultimo commit da branch master devido
 ao merge
 
-12-
+12-O conteudo do arquivo, ao fazer stash, volta a ser o que era antes de fazer as modificacoes. Ja ao fazer o pop do
+stash, o arquivo recupera as modificacoes que tinham sido feitas na WT.
 
