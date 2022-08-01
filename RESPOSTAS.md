@@ -5,7 +5,10 @@ este arquivo ficou salvo no repositorio
 
 4- No campo "changes" houve a exclusão de ANSWERS e a criacao de RESPOSTAS
 
-5-
+5-hash: e69843ae9f7a4a55e5ecc59a835aeebddbfee402
+A saida de -p e a exibicao (sem ser descricao) do codigo que foi adicionado ou removido (destacado em 
+verde ou vermelho) do ultimo arquivo do commit. Em outras palavras, foi feito um diff entre a versao do arquivo mais
+recente e a versao anterior
 
 6-A partir do git log, percebe-se que o a flag amend faz com que o git, ao inves de adicionar mais um commit na branch, substitua
 o commit anterior pelo novo commit
