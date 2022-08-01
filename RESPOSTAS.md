@@ -26,5 +26,8 @@ atualiza o repositorio privado como tambem atualiza a WT
 10-Checkout pega o conteudo de uma branch e o reproduz na sua WT, criando, substituindo ou deletando arquivos. Nesse exemplo, ao trocar
 de branch e fazer checkout, o arquivo de texto criado saiu da WT e continuou salvo no repositorio na nova branch criada
 
-11-
+11- Embora a branch tenha sido deletada, o arquivo de texto ficou salvo no repositorio no ultimo commit da branch master devido
+ao merge
+
+12-
 
