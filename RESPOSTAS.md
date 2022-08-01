@@ -13,9 +13,14 @@ tem a intencao de desfazer um ou mais commits, mas mantendo-os no historico.
 Checkout: Este comando checa o conteudo em seu repositorio e adiciona/substitui um ou mais arquivos do repositorio em sua working tree.
 Este comando nao altera o historico do repositorio
 
-Reset: Descarta um commit em 
+Reset: Descarta um commit (ou varios) do seu repositorio
 
-8-A diferenca é que o fetch apenas faz o download do repositório remoto e atualiza o repositorio da maquina, enquanto o pull nao so
+8-.gitignore faz com que o git ignore certos arquivos nao rastreados da WT, desde que atenda parametros pre estabelecidos. Neste caso,
+o git ignora todos os arquivos com extensão .pdf. Isso pode ser util quando se deseja usar o comando git add --all, mas estabelecendo
+excecoes
+
+9-A diferenca é que o fetch apenas faz o download do repositório remoto e atualiza o repositorio da maquina, enquanto o pull nao so
 atualiza o repositorio privado como tambem atualiza a WT
 
-9-
+10-
+
